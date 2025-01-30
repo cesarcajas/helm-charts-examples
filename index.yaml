@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  i2edgechart:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-01-30T13:48:22.098031954+01:00"
+    description: A Helm chart for your Pod resource
+    digest: c2cfda94df8eb90fe786e7b89def0e8d01b6b4a784d3d5a8bc6f71ea01c9c0e2
+    name: i2edgechart
+    urls:
+    - https://cesarcajas.github.io/helm-chart-examples/i2edgechart-0.9.0.tgz
+    version: 0.9.0
+generated: "2025-01-30T13:48:22.09782787+01:00"

@@ -1,0 +1,9 @@
+# values.yaml
+replicaCount: 1
+nodeSelector: {}
+namespace:
+memoryApp:
+cpuRequest:
+memoryRequest:
+cpuLimit:
+memoryLimit:
