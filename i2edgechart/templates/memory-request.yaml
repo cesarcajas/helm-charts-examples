@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: {{ .Release.Name | default "test" }}
+    namespace: {{ .Values.namespace | default "testpace1" }}
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: {{ .Release.Name | default "test" }}-memory-demo
+    template:
+        metadata:
+            labels:
+                app: {{ .Release.Name | default "test" }}-memory-demo
+        spec:
+            nodeSelector: {{ .Values.nodeSelector | toYaml | nindent 16 }}
+            containers:
+            - name: {{ .Release.Name | default "test" }}-memory-demo
+              image: polinux/stress
+              resources:
+                  requests:
+                      cpu: "{{ .Values.cpuRequest | default "0.2" }}"
+                      memory: "{{ .Values.memoryRequest | default "100Mi" }}"
+                  limits:
+                      cpu: "{{ .Values.cpuLimit | default "0.4" }}"
+                      memory: "{{ .Values.memoryLimit | default "200Mi" }}"
+              command: ["stress"]
+              args: ["--vm", "1", "--vm-bytes", "{{ .Values.memoryApp | default "150M" }}", "--vm-hang", "1"]
