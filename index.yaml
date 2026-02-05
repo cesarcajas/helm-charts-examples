@@ -3,7 +3,7 @@ entries:
   dashstream:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-05T15:35:19.036438284+01:00"
+    created: "2026-02-05T15:56:33.221021106+01:00"
     description: A Helm chart for Kubernetes
     digest: a0aaa78cb1fca0f89b47cfcd0bcc004cb3de9c3fe1a1ace84c6b27f7f45c1e7b
     name: dashstream
@@ -14,11 +14,11 @@ entries:
   i2edgechart:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-02-05T15:35:19.036530336+01:00"
+    created: "2026-02-05T15:56:33.221447224+01:00"
     description: A Helm chart for your Pod resource
     digest: 174a3c1bd3a03e0691aefea6bcefc135515f56a83e2500dd378301034b2548cc
     name: i2edgechart
     urls:
     - https://cesarcajas.github.io/helm-charts-examples/i2edgechart-0.9.0.tgz
     version: 0.9.0
-generated: "2026-02-05T15:35:19.035751762+01:00"
+generated: "2026-02-05T15:56:33.220275466+01:00"
