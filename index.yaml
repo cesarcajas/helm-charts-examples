@@ -21,15 +21,4 @@ entries:
     urls:
     - https://cesarcajas.github.io/helm-charts-examples/i2edgechart-0.9.0.tgz
     version: 0.9.0
-  orchestrator:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2026-02-05T15:35:19.037450743+01:00"
-    description: A Helm chart for Kubernetes
-    digest: d1f44112071e4b9f84f1bde062b40368e2aec6cf119318950bee16ced5dc13c4
-    name: orchestrator
-    type: application
-    urls:
-    - https://cesarcajas.github.io/helm-charts-examples/orchestrator-0.1.0.tgz
-    version: 0.1.0
 generated: "2026-02-05T15:35:19.035751762+01:00"
