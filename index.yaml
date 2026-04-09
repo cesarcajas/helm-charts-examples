@@ -21,26 +21,26 @@ entries:
     urls:
     - https://cesarcajas.github.io/helm-charts-examples/i2edgechart-0.9.0.tgz
     version: 0.9.0
-  orchestrator:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2026-03-16T10:57:55.979762888+01:00"
-    description: A Helm chart for Kubernetes
-    digest: 14e6de3f24c6e2f620fd94d7f8f52e75915cb99266f6d934a24760d1b18234ef
-    name: orchestrator
-    type: application
-    urls:
-    - https://cesarcajas.github.io/helm-charts-examples/orchestrator-0.1.0.tgz
-    version: 0.1.0
-  sfu:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2026-03-16T10:57:55.981082975+01:00"
-    description: A Helm chart for Kubernetes
-    digest: b2cbbfbf58617ea292f4bbcae6fd30b075ce719e73497fd31ecb69c76921f735
-    name: sfu
-    type: application
-    urls:
-    - https://cesarcajas.github.io/helm-charts-examples/sfu-0.1.0.tgz
-    version: 0.1.0
-generated: "2026-03-16T10:57:55.976844955+01:00"
+#   orchestrator:
+#   - apiVersion: v2
+#     appVersion: 1.16.0
+#     created: "2026-03-16T10:57:55.979762888+01:00"
+#     description: A Helm chart for Kubernetes
+#     digest: 14e6de3f24c6e2f620fd94d7f8f52e75915cb99266f6d934a24760d1b18234ef
+#     name: orchestrator
+#     type: application
+#     urls:
+#     - https://cesarcajas.github.io/helm-charts-examples/orchestrator-0.1.0.tgz
+#     version: 0.1.0
+#   sfu:
+#   - apiVersion: v2
+#     appVersion: 1.16.0
+#     created: "2026-03-16T10:57:55.981082975+01:00"
+#     description: A Helm chart for Kubernetes
+#     digest: b2cbbfbf58617ea292f4bbcae6fd30b075ce719e73497fd31ecb69c76921f735
+#     name: sfu
+#     type: application
+#     urls:
+#     - https://cesarcajas.github.io/helm-charts-examples/sfu-0.1.0.tgz
+#     version: 0.1.0
+# generated: "2026-03-16T10:57:55.976844955+01:00"
