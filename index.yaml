@@ -3,7 +3,7 @@ entries:
   dashstream:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-29T15:52:55.770468417+01:00"
+    created: "2026-10-30T10:42:56.291502501+01:00"
     description: A Helm chart for Kubernetes
     digest: a0aaa78cb1fca0f89b47cfcd0bcc004cb3de9c3fe1a1ace84c6b27f7f45c1e7b
     name: dashstream
@@ -14,7 +14,7 @@ entries:
   i2edgechart:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-10-29T15:52:55.770832759+01:00"
+    created: "2026-10-30T10:42:56.29212049+01:00"
     description: A Helm chart for your Pod resource
     digest: 174a3c1bd3a03e0691aefea6bcefc135515f56a83e2500dd378301034b2548cc
     name: i2edgechart
@@ -22,6 +22,25 @@ entries:
     - https://cesarcajas.github.io/helm-charts-examples/i2edgechart-0.9.0.tgz
     version: 0.9.0
   mobilitydemo-motcamside:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-10-30T10:42:56.292450137+01:00"
+    description: Gateway de infraestructura MOTCAM -> ETSI CPM (GeoNet SHB + BTP-B)
+      publicado en broker MQTT 5G (i2CAT)
+    digest: 1420b0e88de0fda96e472fcc0b9641e976a2756943327d13c65957e8b8490caf
+    keywords:
+    - v2x
+    - etsi
+    - cpm
+    - motcam
+    - mqtt
+    maintainers:
+    - name: i2CAT
+    name: mobilitydemo-motcamside
+    type: application
+    urls:
+    - https://cesarcajas.github.io/helm-charts-examples/mobilitydemo-motcamside-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: latest
     created: "2026-10-29T15:52:55.771164507+01:00"
@@ -41,10 +60,29 @@ entries:
     urls:
     - https://cesarcajas.github.io/helm-charts-examples/mobilitydemo-motcamside-0.1.0.tgz
     version: 0.1.0
+  motcam-stack:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-10-30T10:42:56.292964443+01:00"
+    description: Stack MOTCAM (core, trajectories, geolocalization, flexstack) con
+      InfluxDB 2 y Mosquitto, a partir del docker-compose de demo (i2CAT)
+    digest: ad9b3c3d796bab48d30e3a9dfec220dc0f02c6959911fe94d94045bb0c13c1a9
+    keywords:
+    - motcam
+    - v2x
+    - influxdb
+    - mqtt
+    maintainers:
+    - name: i2CAT
+    name: motcam-stack
+    type: application
+    urls:
+    - https://cesarcajas.github.io/helm-charts-examples/motcam-stack-0.1.1.tgz
+    version: 0.1.1
   orchestrator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-29T15:52:55.77256557+01:00"
+    created: "2026-10-30T10:42:56.294256763+01:00"
     description: A Helm chart for Kubernetes
     digest: 14e6de3f24c6e2f620fd94d7f8f52e75915cb99266f6d934a24760d1b18234ef
     name: orchestrator
@@ -55,7 +93,7 @@ entries:
   sfu:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-10-29T15:52:55.773768963+01:00"
+    created: "2026-10-30T10:42:56.295701703+01:00"
     description: A Helm chart for Kubernetes
     digest: b2cbbfbf58617ea292f4bbcae6fd30b075ce719e73497fd31ecb69c76921f735
     name: sfu
@@ -63,4 +101,4 @@ entries:
     urls:
     - https://cesarcajas.github.io/helm-charts-examples/sfu-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-29T15:52:55.769602086+01:00"
+generated: "2026-10-30T10:42:56.289939056+01:00"
