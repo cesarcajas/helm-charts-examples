@@ -3,7 +3,7 @@ entries:
   dashstream:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-02T18:29:21.72039201+01:00"
+    created: "2026-11-10T15:11:47.95260383+01:00"
     description: A Helm chart for Kubernetes
     digest: a0aaa78cb1fca0f89b47cfcd0bcc004cb3de9c3fe1a1ace84c6b27f7f45c1e7b
     name: dashstream
@@ -14,7 +14,7 @@ entries:
   i2edgechart:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-11-02T18:29:21.720926658+01:00"
+    created: "2026-11-10T15:11:47.952909717+01:00"
     description: A Helm chart for your Pod resource
     digest: 174a3c1bd3a03e0691aefea6bcefc135515f56a83e2500dd378301034b2548cc
     name: i2edgechart
@@ -24,7 +24,7 @@ entries:
   mobilitydemo-motcamside:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-11-02T18:29:21.72176354+01:00"
+    created: "2026-11-10T15:11:47.953621084+01:00"
     description: Gateway de infraestructura MOTCAM -> ETSI CPM (GeoNet SHB + BTP-B)
       publicado en broker MQTT 5G (i2CAT)
     digest: 1420b0e88de0fda96e472fcc0b9641e976a2756943327d13c65957e8b8490caf
@@ -63,7 +63,25 @@ entries:
   motcam-stack:
   - apiVersion: v2
     appVersion: latest
-    created: "2026-11-02T18:29:21.722618923+01:00"
+    created: "2026-11-10T15:11:47.955048443+01:00"
+    description: Stack MOTCAM (core, trajectories, geolocalization, flexstack) con
+      InfluxDB 2 y Mosquitto, a partir del docker-compose de demo (i2CAT)
+    digest: 61f4557b380007197d564c300c428a1728923e87e61ff9586330f55348178fce
+    keywords:
+    - motcam
+    - v2x
+    - influxdb
+    - mqtt
+    maintainers:
+    - name: i2CAT
+    name: motcam-stack
+    type: application
+    urls:
+    - https://cesarcajas.github.io/helm-charts-examples/motcam-stack-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-11-10T15:11:47.954416571+01:00"
     description: Stack MOTCAM (core, trajectories, geolocalization, flexstack) con
       InfluxDB 2 y Mosquitto, a partir del docker-compose de demo (i2CAT)
     digest: 2c0ebe3f242ba1a940c5744b646da503cde66a58c8ef635fdea3ea69a9a268b0
@@ -100,7 +118,7 @@ entries:
   orchestrator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-02T18:29:21.723943263+01:00"
+    created: "2026-11-10T15:11:47.956278809+01:00"
     description: A Helm chart for Kubernetes
     digest: 14e6de3f24c6e2f620fd94d7f8f52e75915cb99266f6d934a24760d1b18234ef
     name: orchestrator
@@ -111,7 +129,7 @@ entries:
   sfu:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-02T18:29:21.725516046+01:00"
+    created: "2026-11-10T15:11:47.957413568+01:00"
     description: A Helm chart for Kubernetes
     digest: b2cbbfbf58617ea292f4bbcae6fd30b075ce719e73497fd31ecb69c76921f735
     name: sfu
@@ -119,4 +137,4 @@ entries:
     urls:
     - https://cesarcajas.github.io/helm-charts-examples/sfu-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-02T18:29:21.719389145+01:00"
+generated: "2026-11-10T15:11:47.951191256+01:00"
